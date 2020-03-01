@@ -1,7 +1,7 @@
 # Site settings
 title: Kod's Blog
 SEOTitle: Kod의 블로그 | Kod's Blog
-header-img: img/home-bg.jpg
+header-img: img/post-bg-unix-linux.jpg
 email: kodw4284@gmail.com
 description: "소프트웨어 개발자 | Software Engineer"
 keyword: "Daewoong, Kod, @Daewoong, @Daewoong_Ko, @daewoong, Daewoong Blog, Kod Blog, Web, JavaScript, React"
@@ -75,8 +75,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "하루에 한 커밋이 목표인 개발자입니다."
+sidebar-avatar: /img/default_avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
