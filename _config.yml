@@ -5,8 +5,8 @@ header-img: img/post-bg-unix-linux.jpg
 email: kodw4284@gmail.com
 description: "소프트웨어 개발자 | Software Engineer"
 keyword: "Daewoong, Kod, @Daewoong, @Daewoong_Ko, @daewoong, Daewoong Blog, Kod Blog, Web, JavaScript, React"
-url: "https://kod.world"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://kod4284.github.io"              # your host, for absolute URL
+baseurl: "https://kod4284.github.io"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
