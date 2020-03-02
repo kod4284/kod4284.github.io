@@ -8,11 +8,10 @@ multilingual: true
 
 {% include multilingual-sel.html %}
 
-<!-- SHOULD_UPDATE -->
-<!-- Chinese Version -->
-<div class="zh post-container">
-    {% capture about_zh %}{% include about/kr.md %}{% endcapture %}
-    {{ about_zh | markdownify }}
+<!-- Korean Version -->
+<div class="kr post-container">
+    {% capture about_kr %}{% include about/kr.md %}{% endcapture %}
+    {{ about_kr | markdownify }}
 </div>
 
 <!-- English Version -->
