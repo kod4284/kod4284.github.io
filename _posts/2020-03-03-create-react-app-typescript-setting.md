@@ -16,9 +16,9 @@ tags:
 
 create-react-app-typescript 프로젝트를 생성하고 기본적으로 해야할 세팅을 적어보았다.
 
-### Extention  설치
+### Extension  설치
 
-React로 개발할때 생산성을 높여주는 VSCode extention 리스트인데 취향대로 설치하면 된다. 
+React로 개발할때 생산성을 높여주는 VSCode extension 리스트인데 취향대로 설치하면 된다. 
 
 * Prettier
 * Gitblame
