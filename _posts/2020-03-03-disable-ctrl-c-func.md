@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "윈도우 VSCode에서 Vim extention 사용할때 control + C 기능 끄기."
-subtitle:   "VS Code 기본설정"
+subtitle:   "VS Code Vim extention"
 date:       2020-03-02 19:41:00
 author:     "Kod"
 header-img: "img/post-bg-2015.jpg"
