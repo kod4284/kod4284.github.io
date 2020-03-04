@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+https://kod4284.github.io/sitemap.xml
