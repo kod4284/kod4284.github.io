@@ -58,21 +58,9 @@ eslint는 React 앱 개발할 때 거의 필수적으로 쓰인다. 그 이유�
 
 ```shell
 # Using npm
-npm install eslint-config-airbnb-typescript \
-            eslint-plugin-import@^2.18.2 \
-            eslint-plugin-jsx-a11y@^6.2.3 \
-            eslint-plugin-react@^7.15.1 \
-            eslint-plugin-react-hooks@^1.7.0 \
-            @typescript-eslint/eslint-plugin@^2.19.0 \
-            --save-dev
+npm install eslint-config-airbnb-typescript --save-dev
 # Using yarn
-yarn add eslint-config-airbnb-typescript \
-         eslint-plugin-import@^2.18.2 \
-         eslint-plugin-jsx-a11y@^6.2.3 \
-         eslint-plugin-react@^7.15.1 \
-         eslint-plugin-react-hooks@^1.7.0 \
-         @typescript-eslint/eslint-plugin@^2.19.0 \
-         -D
+yarn add --dev eslint-config-airbnb-typescript
 ```
 
 마지막으로 package.json 안에 있는 eslintConfig 안에 아래처럼 작성하면 eslint 가 적용된다.
@@ -80,7 +68,7 @@ yarn add eslint-config-airbnb-typescript \
 ```shell
 # eslint configuration in package.json
 "eslintConfig": {
-   "extends": ["airbnb-typescript"],
+   "extends": ["react-app", "airbnb-typescript"],
    "parserOptions": {
    "project": "./tsconfig.json"
    }
