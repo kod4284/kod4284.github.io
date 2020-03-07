@@ -71,7 +71,7 @@ yarn add --dev eslint-config-airbnb-typescript
    "extends": ["react-app", "airbnb-typescript"],
    "parserOptions": {
    "project": "./tsconfig.json"
-   }
+   },
    "rules": { # 윈도우에서 개행문자가 \n이 아니라 \r\n 인 것 때문에 에러막기 위한 옵션 
       "linebreak-style": 0
    }
