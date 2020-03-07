@@ -25,7 +25,7 @@ CRA의 기본 세팅으로 앱을 개발하다 보면 폴더 구조가 점점 �
 
 ```shell
 yarn add @craco/craco
-yarn add --dev craco-alias
+yarn add craco-alias
 ```
 
 ### 적용하기
@@ -87,7 +87,7 @@ module.exports = {
 };
 ```
 
-마지막으로 **tsconfig.json** 파일을 아래와 같이 수정합니다.
+**tsconfig.json** 파일을 아래와 같이 수정합니다.
 
 ```js
 {
@@ -97,6 +97,16 @@ module.exports = {
   }
   // 생략...
 }
+```
+
+마지막으로 **tsconfig.json** 에 craco.config.js 파일을 include 해줍니다.
+```js
+// 생략 ...
+"include": [
+  "src",
+  "craco.config.js"
+]
+// 생략 ...
 ```
 
 모든 설정이 잘 끝났으면 이제 아래와 같이 import 할 수 있습니다.
