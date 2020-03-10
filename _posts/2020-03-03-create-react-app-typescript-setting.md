@@ -25,6 +25,11 @@ React로 개발할때 생산성을 높여주는 VSCode extension 리스트인데
 * ESLint
 * Vim(optional)
 
+아래는 Chrome extension 리스트다.
+
+* React Developer Tools
+* Redux Dev Tools
+
 ### setting.json
 
 *VSCode에서* Tab을 눌렀을 때 기본적으로 4칸이 띄어질 텐데, 보통은 double space로 설정한다. **Crtl + Shift + P** 입력 후 **setting.json** 안에 아래 코드를 붙여 넣자.
