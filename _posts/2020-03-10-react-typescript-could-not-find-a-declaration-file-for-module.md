@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "React Typescript "Could not find a declaration file for module" 오류 해결하기"
-subtitle:   "React-ts "Could not find a declaration file for module" error handling"
+title:      "React Typescript \"Could not find a declaration file for module\" 오류 해결하기"
+subtitle:   "React-ts \"Could not find a declaration file for module\" error handling"
 date:       2020-03-10 23:07:00
 author:     "Kod"
 header-img: "img/post-bg-2015.jpg"
