@@ -24,6 +24,8 @@ React로 개발할때 생산성을 높여주는 VSCode extension 리스트인데
 * Gitblame
 * ESLint
 * Vim(optional)
+* vscode-styled-components
+* Color Highlight
 
 아래는 Chrome extension 리스트다.
 
